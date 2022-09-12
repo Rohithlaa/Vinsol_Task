@@ -153,7 +153,7 @@ function Quiz1() {
     <div className={classes.CenterItem}>
       <Paper elevation={16} className={classes.PaperStyling}>
         <Typography variant="h4">
-          {showResult ? 'Result' : 'Arthematic Quiz'}
+          {showResult ? 'Result' : 'Arithmetic Quiz'}
         </Typography>
 
         {EnableQuiz ? (
