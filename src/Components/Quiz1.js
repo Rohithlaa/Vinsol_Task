@@ -262,7 +262,7 @@ function Quiz1() {
                   <Grid item xs={12} sx={{ margin: '2%' }}>
                     <TextField
                       id="outlined-basic"
-                      label="No of Questions"
+                      label="Enter Number of Questions"
                       type="number"
                       name="Number"
                       variant="outlined"
@@ -279,7 +279,7 @@ function Quiz1() {
                       fullWidth
                       value={values.UserSelectedOperands}
                       onChange={HandleInputForm}
-                      label="Please select Required Operands"
+                      label="Please select number range"
                     >
                       <MenuItem value="" style={{ display: 'none' }}>
                         Please Select
@@ -314,11 +314,10 @@ function Quiz1() {
             </div>
           </>
         )}
-        {!showResult ? (
           <Button variant="outlined" onClick={ResetQuiz}>
             Reset Quiz
           </Button>
-        ) : null}
+        
       </Paper>
     </div>
   );
