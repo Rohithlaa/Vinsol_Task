@@ -146,6 +146,7 @@ function Quiz1() {
     setEnableQuiz(false);
     setListOfQuestions([]);
     setValues(initialValues);
+    setshowResult(false)
   };
 
   return (
